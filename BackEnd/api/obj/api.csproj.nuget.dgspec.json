@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Personal Projects\\finShark\\BackEnd\\api\\api.csproj": {}
+    "E:\\Personal Projects\\StockSphere\\BackEnd\\api\\api.csproj": {}
   },
   "projects": {
-    "E:\\Personal Projects\\finShark\\BackEnd\\api\\api.csproj": {
+    "E:\\Personal Projects\\StockSphere\\BackEnd\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Personal Projects\\finShark\\BackEnd\\api\\api.csproj",
+        "projectUniqueName": "E:\\Personal Projects\\StockSphere\\BackEnd\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "E:\\Personal Projects\\finShark\\BackEnd\\api\\api.csproj",
+        "projectPath": "E:\\Personal Projects\\StockSphere\\BackEnd\\api\\api.csproj",
         "packagesPath": "C:\\Users\\Rohit\\.nuget\\packages\\",
-        "outputPath": "E:\\Personal Projects\\finShark\\BackEnd\\api\\obj\\",
+        "outputPath": "E:\\Personal Projects\\StockSphere\\BackEnd\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rohit\\AppData\\Roaming\\NuGet\\NuGet.Config"
