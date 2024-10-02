@@ -40,7 +40,7 @@ namespace api.Controllers
         }
 
         [HttpPost("CreateStock")]
-        public IActionResult Create([FromBody] StockCreateRequest create)
+        public IActionResult CreateStock([FromBody] StockCreateRequest create)
         {
             var stockModel = create.ToStockFromCreateRequest();
             _context.Stocks.Add(stockModel);
@@ -48,6 +48,21 @@ namespace api.Controllers
             return CreatedAtAction(nameof(GetById), new { id = stockModel.Id }, stockModel.ToStockResponseDto());
         }
 
-        
+        [HttpPut]
+        [Route("{id}")]
+        public IActionResult UpdateStockById([FromRoute] int id, [FromBody] StockUpdateRequest updateRequest)
+        {
+            var stockModel = _context.Stocks.FirstOrDefault(x => x.Id == id);
+            if (stockModel == null)
+            {
+                return NotFound();
+            }
+
+            stockModel = updateRequest.ToStockFromUpdateRequest(stockModel);
+            _context.SaveChanges();
+
+            return Ok(stockModel.ToStockResponseDto());
+        }
+
     }
 }

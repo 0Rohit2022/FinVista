@@ -9,9 +9,9 @@ namespace api.Mappers
 {
     public static class StockMapper
     {
-        public static StockResponseDto  ToStockResponseDto(this Stock stockModels)
+        public static StockResponseDto ToStockResponseDto(this Stock stockModels)
         {
-            return new StockResponseDto 
+            return new StockResponseDto
             {
                 Id = stockModels.Id,
                 Symbol = stockModels.Symbol,
@@ -28,12 +28,25 @@ namespace api.Mappers
             return new Stock
             {
                 Symbol = request.Symbol,
-                CompanyName = request.CompanyName, 
-                Purchase = request.Purchase, 
-                LastDiv = request.LastDiv, 
-                Industry = request.Industry, 
+                CompanyName = request.CompanyName,
+                Purchase = request.Purchase,
+                LastDiv = request.LastDiv,
+                Industry = request.Industry,
                 MarketCap = request.MarketCap
             };
         }
+
+        public static Stock ToStockFromUpdateRequest(this StockUpdateRequest updateRequest, Stock existingStock)
+        {
+            existingStock.Symbol = updateRequest.Symbol;
+            existingStock.CompanyName = updateRequest.CompanyName;
+            existingStock.Purchase = updateRequest.Purchase;
+            existingStock.LastDiv = updateRequest.LastDiv;
+            existingStock.Industry = updateRequest.Industry;
+            existingStock.MarketCap = updateRequest.MarketCap;
+
+            return existingStock;
+        }
+
     }
 }
