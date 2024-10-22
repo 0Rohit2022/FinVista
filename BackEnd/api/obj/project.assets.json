@@ -4555,24 +4555,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rohit\\.nuget\\packages\\": {}
+    "C:\\Users\\ecs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\Personal Projects\\StockSphere\\BackEnd\\api\\api.csproj",
+      "projectUniqueName": "F:\\Personal Projects\\StockSphere\\BackEnd\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "e:\\Personal Projects\\StockSphere\\BackEnd\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\Rohit\\.nuget\\packages\\",
-      "outputPath": "e:\\Personal Projects\\StockSphere\\BackEnd\\api\\obj\\",
+      "projectPath": "F:\\Personal Projects\\StockSphere\\BackEnd\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\ecs\\.nuget\\packages\\",
+      "outputPath": "F:\\Personal Projects\\StockSphere\\BackEnd\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rohit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4640,7 +4642,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
