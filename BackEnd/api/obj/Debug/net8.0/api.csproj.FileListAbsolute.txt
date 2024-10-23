@@ -413,3 +413,7 @@ F:\Personal Projects\StockSphere\BackEnd\api\obj\Debug\net8.0\scopedcss\bundle\a
 F:\Personal Projects\StockSphere\BackEnd\api\obj\Debug\net8.0\api.csproj.Up2Date
 F:\Personal Projects\StockSphere\BackEnd\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 F:\Personal Projects\StockSphere\BackEnd\api\obj\Debug\net8.0\ref\api.dll
+F:\Personal Projects\StockSphere\BackEnd\api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\Personal Projects\StockSphere\BackEnd\api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:\Personal Projects\StockSphere\BackEnd\api\bin\Debug\net8.0\Newtonsoft.Json.dll
+F:\Personal Projects\StockSphere\BackEnd\api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
