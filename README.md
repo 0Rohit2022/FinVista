@@ -83,6 +83,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 For .NET and database management, refer to:
 
-[ASP.NET Core Documentation](https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0)
-[SQL Server Documentation](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15)
+[ASP.NET Core Documentation](https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0).
+
+[SQL Server Documentation](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15).
 
