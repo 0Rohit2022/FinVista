@@ -22,7 +22,7 @@ namespace api.Mappers
                 MarketCap = stockModels.MarketCap,
                 Comments = stockModels.Comments.Select(c => c.ToCommentDto()).ToList()
             };
-        }
+        }   
 
         public static Stock ToStockFromCreateRequest(this StockCreateRequest request)
         {
