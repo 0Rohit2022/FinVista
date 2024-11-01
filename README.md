@@ -65,7 +65,7 @@ Update the connection string to point to your SQL Server database. For example:
      "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Database=YourDatabaseName;User Id=YourUsername;Password=YourPassword;"
     }
-### Run Migrations (if using Entity Framework):
+### Run Migrations (For Entity Framework):
 ### Open a terminal or command prompt
 
     dotnet ef database update
