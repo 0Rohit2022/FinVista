@@ -39,6 +39,42 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Setting Up the Backend with .NET
+### `Prerequisites`
+    Make sure you have .NET SDK installed on your machine.
+    Install SQL Server Management Studio (SSMS).
+
+
+    Connecting to SQL Server with SSMS
+### `Open SQL Server Management Studio :-`
+### Connect to the Server:
+
+In the "Connect to Server" dialog, enter your server name. If you’re running it locally, you can use localhost or .\SQLEXPRESS.
+Choose the authentication method (Windows Authentication or SQL Server Authentication) and provide credentials if necessary.
+
+    Create a Database (if needed):
+    Right-click on the "Databases" node in Object Explorer and select "New Database."
+    Enter a name for your database and click "OK."
+
+### Starting the .NET Backend Service
+### Open your .NET project in Visual Studio or your preferred IDE.
+### Configure the Database Connection:
+Open the appsettings.json file in your project:-
+Update the connection string to point to your SQL Server database. For example:
+
+     "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=YourDatabaseName;User Id=YourUsername;Password=YourPassword;"
+    }
+### Run Migrations (if using Entity Framework):
+### Open a terminal or command prompt
+
+    dotnet ef database update
+### Start the Backend Service:
+### In your IDE, run the project. If using the command line, execute:    
+    dotnet run
+
+### The backend service should now be running, typically at http://localhost:5046
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
