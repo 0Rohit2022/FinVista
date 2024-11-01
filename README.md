@@ -73,7 +73,7 @@ Update the connection string to point to your SQL Server database. For example:
 ### In your IDE, run the project. If using the command line, execute:    
     dotnet run
 
-### The backend service should now be running, typically at[ http://localhost:5046/swagger/index.html
+### The backend service should now be running, typically at [http://localhost:5046/swagger/index.html]
 
 ## Learn More
 
