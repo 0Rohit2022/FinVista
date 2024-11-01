@@ -80,3 +80,9 @@ Update the connection string to point to your SQL Server database. For example:
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+For .NET and database management, refer to:
+
+[ASP.NET Core Documentation](https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0)
+[SQL Server Documentation](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15)
+
